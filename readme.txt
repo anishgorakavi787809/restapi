@@ -26,8 +26,17 @@ elif mac or linux:
     python3 app.py
 14.
 then type cd..
+15. type cd client-side
 
-15.
+16.
+If windows:
+    python app.py
+elif mac or linux:
+    python3 app.py
+
+17.
 
 If you wanna test rest:
 use postman
+else:
+use chrome and go to localhost:80
