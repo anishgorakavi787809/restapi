@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Operations!</title>
+    <style>
+        a.right-out {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <a href="/signout" class="right-out">Sign Out!</a>
+    <br>
+    <center>
+        <form action="/operation" method="post">
+        <p>First Number:</p>
+        <input type="number" name="firstnum" id="">
+        <br>
+        <p>Operator:</p>
+        <select name="operator" id="">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+            <option value="mod">%</option>
+        </select>
+        <br>
+        <p>Second Number:</p>
+        <input type="number" name="secondnum" id="">
+        <br>
+        <input type="submit" value="submit">
+</form>
+<br>
+<p>
+    Result:
+</p>
+<p>{{result}}</p>
+    </center>
+
+</body>
+</html>

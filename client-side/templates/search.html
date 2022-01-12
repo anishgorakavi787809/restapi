@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        a.right-out {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <a href="/signout" class="right-out">Sign Out!</a>
+    <br>
+    <center>
+    <form action="/search" method="post">
+        <p>Query:</p>
+        <input type="text" name="query" id="query" required>
+        <br>
+        <input type="submit" value="Submit">
+        <p>Result:</p>
+
+        <div id="result">
+            <a href={{url1}}>{{url1}}</a>
+            <br>
+            <a href={{url2}}>{{url2}}</a>
+            <br>
+            <a href={{url3}}>{{url3}}</a>
+            <br>
+            <a href={{url4}}>{{url4}}</a>
+            <br>
+            <a href={{url5}}>{{url5}}</a>
+            <br>
+            <a href={{url6}}>{{url6}}</a>
+            <br>
+            <a href={{url7}}>{{url7}}</a>
+            <br>
+            <a href={{url8}}>{{url8}}</a>
+            <br>
+            <a href={{url9}}>{{url9}}</a>
+            <br>
+            <a href={{url10}}>{{url10}}</a>
+        </div>
+    </form>
+</center>
+</body>
+</html>
